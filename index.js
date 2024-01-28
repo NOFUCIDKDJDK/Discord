@@ -43,7 +43,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `lIVE ON TWTICH`;
+      const newDetails = `/yxn`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
