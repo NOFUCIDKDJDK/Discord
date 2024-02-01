@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
+    .setURL('https://grabify.link/PLR2VR') //Must be a youtube video link 
 
 
     .setName('/yxn')
