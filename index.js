@@ -25,9 +25,9 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('	http://gg.gg/18t82j') 
-
-
+    .setURL('https://m.twitch.tv/discord')
+      
+      
     .setName('/yxn')
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
