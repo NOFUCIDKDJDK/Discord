@@ -36,7 +36,7 @@ client.on('ready', async () => {
 
 
 
-    .addbutton('/yxn','http://discord.gg/yxn')
+    
     .addbutton('/Revolution','https://discord.gg/blackparty')
   
   
