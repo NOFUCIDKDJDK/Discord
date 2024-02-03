@@ -28,15 +28,9 @@ client.on('ready', async () => {
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
     .setURL('https://twitch.tv/discord')
-      
-      
     .setName('/yxn')
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
-
-
-
-    
     .addbutton('/Revolution','https://discord.gg/blackparty')
   
   
