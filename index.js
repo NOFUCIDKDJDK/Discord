@@ -32,7 +32,7 @@ client.on('ready', async () => {
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
-.setAssetsLargeImage('https://cdn.discordapp.com/attachments/912467821114556489/1178041856764936202/copy_BC90C066-5974-4CAF-B399-53F109ED091C.gif?ex=65c7c279&is=65b54d79&hm=c45310b2019f916876ed2dcd65db7c714c14aa53c323807668b307289f1e3a3a&')
+
 
     .addButton('/yxn','http://discord.gg/yxn')
 
