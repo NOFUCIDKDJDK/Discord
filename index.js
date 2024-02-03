@@ -35,8 +35,7 @@ client.on('ready', async () => {
 
 
     .addButton('/yxn','http://discord.gg/yxn')
-    .addbutton('/Revolution', 
-      'https://discord.gg/blackparty')
+    .addbutton('/Revolution','https://discord.gg/blackparty')
   
   
   client.user.setActivity(r);
