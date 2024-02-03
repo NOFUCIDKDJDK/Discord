@@ -23,9 +23,11 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
+
+
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('https://m.twitch.tv/discord')
+    .setURL('https://twitch.tv/discord')
       
       
     .setName('/yxn')
