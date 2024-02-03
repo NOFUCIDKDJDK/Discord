@@ -20,20 +20,23 @@ function formatTime() { //Credits to himika#0001 and never#0001
 
 client.on('ready', async () => {
   console.clear();
-  console.log(`${client.user.tag} - rich presence started!`);
+  console.log(${client.user.tag} - rich presence started!);
 
   const r = new Discord.RichPresence()
-
-
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('https://twitch.tv/discord')
-    .setName('/yxn')
-    .setDetails(`/yxn [${formatTime()}]`)
+    .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
+    .setState('😞😞')
+    .setName('😞😞')
+    .setDetails(😞😞 [${formatTime()}])
     .setStartTimestamp(Date.now())
-    .addbutton('/Revolution','https://discord.gg/blackparty')
-  
-  
+ .setAssetsLargeImage('d3e797ca094054a1ba0c1ff20ab00b52.jpg') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Crying') //Text when you hover the Large image
+    .setAssetsSmallImage('448101099b44089b0169c5cd30fe0106.jpg') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('y ahora¿?') //Text when you hover the Small image
+    .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
+    .addButton('Legacys♱', 'https://discord.gg/HvsYb4kK');
+
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
@@ -41,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/yxn`;
+      const newDetails = Llorando por Xavi;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
