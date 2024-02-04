@@ -31,8 +31,8 @@ client.on('ready', async () => {
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
-    
-   
+    .addButton('/Revolution','https://discord.gg/yxn')
+    .addButton('/blackparty','https://disocrd.gg/blackparty')
     
 
 
