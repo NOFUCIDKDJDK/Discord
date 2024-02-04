@@ -33,8 +33,8 @@ client.on('ready', async () => {
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
-    .addButton('BlackParty', 'https://discord.gg/blackparty')
-    .addButton('/Revolution', 'https://discord.gg/yxn');
+    .addButton('/blackparty', 'https://discord.gg/blackparty')
+    .addButton('/yxn', 'https://discord.gg/yxn');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
