@@ -31,8 +31,11 @@ client.on('ready', async () => {
     .setDetails(`/yxn [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
-    .addButton('/Revolution','https://discord.gg/yxn')
-    .addButton('/blackparty','https://disocrd.gg/blackparty')
+    
+
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/925574783901528094/1185965702297960538/healbanner_AxWFEfGg.gif?ex=65d22121&is=65bfac21&hm=ba1c84175dbf4ce188ca9391de4b99115a758362a80994b5c5399c16ef91c6db&')
+    .addButton('/yxn','https://discord.gg/yxn')
+    .addButton('/blackparty','https://discordd.gg/blackparty')
     
 
 
