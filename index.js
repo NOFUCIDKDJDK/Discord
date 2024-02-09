@@ -26,18 +26,16 @@ client.on('ready', async () => {
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
-    
-    .setName('/yxn')
-    .setDetails(`/yxn [${formatTime()}]`)
+    .setState('😞😞')
+    .setName('😞😞')
+    .setDetails(`😞😞 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
-
-    
-
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/972084009762967604/972465729087635506/pfps-57cXSR.gif?ex=65d09dc9&is=65be28c9&hm=98bfe04690e68d39af75bd179e42ea732066d2ec9c55a386a2fa39a791b690c5&')
-    .addButton('/yxn','https://discord.gg/yxn')
-    .addButton('/blackparty','https://discordd.gg/blackparty')
-    
-
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1127012472025522287/1200926451000692746/d3e797ca094054a1ba0c1ff20ab00b52.jpg?ex=65c7f4ea&is=65b57fea&hm=ef7e046f0eae84d3a5d661d7f36f3a2f18b83e08a571f5ca438a91f3874e3abf&=&format=webp&width=261&height=409') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Crying') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1127012472025522287/1200929423722037300/448101099b44089b0169c5cd30fe0106.jpg?ex=65c7f7ae&is=65b582ae&hm=2f92f8b539983d15cee13abd89b69053e0409eb97e2e664fe1a6ba1da22b8d08&=&format=webp&width=184&height=409') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('y ahora¿?') //Text when you hover the Small image
+    .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
+    .addButton('Legacys♱', 'https://discord.gg/HvsYb4kK');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -46,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/vxxm`;
+      const newDetails = `Llorando por Xavi`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
